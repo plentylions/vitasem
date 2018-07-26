@@ -1,0 +1,11 @@
+.footer-image-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-image-row a{
+    max-width: 15%;
+}
+.footer-image-row img{
+    max-width: 100%;
+}
