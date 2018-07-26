@@ -9,3 +9,8 @@
 .footer-image-row img{
     max-width: 100%;
 }
+@media(min-width:991px){
+    .footer-image-row img{
+        max-width: 100px;
+    }
+}
