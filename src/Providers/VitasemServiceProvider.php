@@ -44,6 +44,12 @@ class VitasemServiceProvider extends ServiceProvider
             return false;
         }, self::PRIORITY);
 
+        $dispatcher->listen('IO.tpl.checkout', function (TemplateContainer $container)
+        {
+            $container->setTemplate('Vitasem::Checkout.CheckoutView');
+            return false;
+        }, self::PRIORITY);
+
     }
 }
 
